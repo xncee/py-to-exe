@@ -1,4 +1,5 @@
 import os, datetime
+os.system("pip install pyinstaller")
 try:
     import colorama
 except ImportError:
