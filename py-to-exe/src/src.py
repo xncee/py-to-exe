@@ -1,5 +1,7 @@
-import os, datetime
+import os, datetime, subprocess
+clear = lambda: subprocess.call('cls||clear', shell=True)
 os.system("pip install pyinstaller")
+clear()
 try:
     import colorama
 except ImportError:
